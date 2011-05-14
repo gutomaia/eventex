@@ -1,20 +1,48 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html>
-	<head><title>EventeX</title></head>
-	<body>
-		<img src="{{ STATIC_URL }}img/logo.png" />
-		<h1>Parabéns {{ subscription.name }}!</h1>
-		<p>
-			Sua instrição foi realizada em
-			{{ subscription.created_at|date:"d/m/Y" }}.
-		</p>
-		<p>
-			Em breve, alguém entrará em contato pelo
-			{% if subscription.phon %}
-				telefone {{ subscription.phone }}.
-			{% else %}
-				e-mail {{ subscription.email }}.
-			{% endif %}
-		</p>
-	</body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Eventex</title>
+<link type="text/css" rel="stylesheet" href="{{ STATIC_URL }}css/style.css" media="screen" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.6/jquery-ui.min.js"></script>
+</head>
+
+<body>
+<div class="top">
+	<div class="row">
+		<div class="column grid_4">
+			<img src="{{ STATIC_URL }}img/logo.png" class="logo" />
+		</div>
+		
+		<div class="column grid_8">
+			<ul class="menu">
+				<li><a href="/">Home</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="column grid_12 box">
+		<div class="row">
+			<div class="column grid_6">
+				<h2>No More Mr. Nice Guy!</h2>
+				<img src="{{ STATIC_URL }}img/wannabe.jpg" />
+				<p>Stop beeing a good cop! Out with the scout work.</p>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="column grid_6">
+				<a href="http://programming-motherfucker.com" class="button">Become a motherfucker</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="column grid_12">&nbsp;</div>
+</div>
+</body>
 </html>

@@ -1,0 +1,201 @@
+
+/*
+	960 Grid System
+*/
+
+.grid_1 {
+width:60px;
+}
+
+.grid_2 {
+width:140px;
+}
+
+.grid_3 {
+width:220px;
+}
+
+.grid_4 {
+width:300px;
+}
+
+.grid_5 {
+width:380px;
+}
+
+.grid_6 {
+width:460px;
+}
+
+.grid_7 {
+width:540px;
+}
+
+.grid_8 {
+width:620px;
+}
+
+.grid_9 {
+width:700px;
+}
+
+.grid_10 {
+width:780px;
+}
+
+.grid_11 {
+width:860px;
+}
+
+.grid_12 {
+width:960px;
+}
+
+.column {
+float:left;
+display:inline;
+margin:0 5px;
+}
+
+.row {
+width:960px;
+margin:0 auto;
+}
+
+.row .row {
+width:auto;
+display:inline-block;
+margin:0 3px;
+}
+
+/*
+	General Styling
+*/
+
+body {
+background:#FFF url(/static/img/Outoffocus.jpg) no-repeat left top fixed;
+color:#333;
+font-family:Helvetica, Arial, sans-serif;
+font-size:12px;
+margin:0;
+}
+
+a {
+color:#333;
+font-weight:700;
+text-decoration:none;
+}
+
+a:hover {
+color:#333;
+font-weight:700;
+text-decoration:underline;
+}
+
+img {
+border:none;
+}
+
+.top {
+width:100%;
+margin:0 0 25px 0;
+background-color:#333333;
+background-image: -moz-linear-gradient(top, #2d2d2d, #1a1a1a);
+background-image: -webkit-gradient(linear, left top,left bottom, from(#2d2d2d), to(#1a1a1a));
+background-image: linear-gradient(top, #2d2d2d, #1a1a1a);
+-webkit-box-shadow:-6px 1px 6px rgba(0, 0, 0, 0.4);
+-moz-box-shadow:-6px 1px 6px rgba(0, 0, 0, 0.4);
+box-shadow:-6px 1px 6px rgba(0, 0, 0, 0.4);
+overflow:hidden;
+height:58px;
+}
+
+.top .logo {
+padding:7px 0 0 20px;
+display:inline;
+}
+
+.top .menu {
+float:right;
+}
+
+.top .menu li {
+display:inline;
+height: 45px;
+text-align: center;
+list-style:none;
+}
+
+.top .menu li a{
+padding: 15px 18px 15px 18px;
+font-size:14px;
+color:#999999;
+text-shadow: 0px 1px 0px #333;
+line-height:20px;
+}
+
+.top .menu li a:hover{
+color:#FFFFFF;
+background-color:#333;
+text-decoration:none;
+}
+
+.box {
+background-color:#FFF;
+background-image: -moz-linear-gradient(top, #e2e2e2, #FFFFFF);
+background-image: -webkit-gradient(linear, left top,left bottom, from(#e2e2e2), to(#FFFFFF));
+background-image: linear-gradient(top, #e2e2e2, #FFFFFF);
+border:none;
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+border-radius:10px;
+-webkit-box-shadow:1px 1px 8px rgba(0, 0, 0, 0.3);
+-moz-box-shadow:1px 1px 8px rgba(0, 0, 0, 0.3);
+box-shadow:1px 1px 8px rgba(0, 0, 0, 0.3);
+padding:10px;
+}
+
+.info {
+margin:0 0 50px 0;
+}
+
+h1 {
+float:left;
+font-size:30px;
+font-weight:bold;
+letter-spacing:-1px;
+color:#333;
+text-shadow:1px 1px 1px #FFFFFF;
+margin:0;
+padding:7px 0 0 8px;
+}
+
+.button {
+float:right;
+font-weight: bold;
+font-size: 18px;
+text-align: center;
+text-decoration: none;
+padding: 8px;
+margin:5px 8px 0 0;
+-moz-border-radius: 10px;
+-webkit-border-radius: 8px;
+border: 1px solid #2281a7;
+text-shadow: 1px 1px 2px #156281;
+color: #FFFFFF;
+background-image: -moz-linear-gradient(top, #40aedb, #2087b0);
+background-image: -webkit-gradient(linear, left top,left bottom, from(#40aedb), to(#2087b0));
+background-image: linear-gradient(top, #40aedb, #2087b0);
+outline: none;
+}
+
+.button:hover {
+text-decoration:none;
+background:#108ec0;
+text-shadow: 1px 1px 2px #156281;
+color: #FFFFFF;
+}
+
+.button:active { 
+margin-top: 0.4em;
+}
