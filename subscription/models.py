@@ -11,6 +11,6 @@ class Subscription (models.Model):
 		return self.name
 
 	class Meta:
-		ordering = ["create_at"]
+		ordering = ["created_at"]
 		verbose_name = u"Inscricao"
 		verbose_name_plural = u"Incricoes"
